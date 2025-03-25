@@ -1,10 +1,11 @@
+import Background from "../../components/Background/Background";
 import NavBar from "../../components/NavBar/NavBar";
 import "./Home.css";
-import otherImg from "../../assets/carl-raw-m3hn2Kn5Bns-unsplash.jpg";
 
 function Home() {
   return (
     <>
+      <Background />
       <NavBar fullLeft="Kyrma Games" lnk="Games" About="About" />
       <div className="welcome-container">
         <div className="welcome-content text-center">
@@ -12,9 +13,6 @@ function Home() {
           <p className="lead">
             Here we create the best mobile games for you to enjoy.
           </p>
-        </div>
-        <div className="image-container">
-          <img src={otherImg} alt="Background" className="background-image" />
         </div>
       </div>
     </>
