@@ -10,6 +10,7 @@ export default function Background() {
           alt="Background"
           className="background-image"
           draggable="false"
+          loading="lazy"
         />
       </div>
     </>
