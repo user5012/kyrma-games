@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/about" element={<About instagram={"https://instagram.com"} tiktok={"https://tiktok.com"} />} />
       <Route path="/games" element={<Games />} />
     </Routes>
   );

@@ -9,8 +9,8 @@ interface AboutProps {
 }
 
 function About({
-  instagram = "https://instagram.com",
-  tiktok = "https://tiktok.com",
+  instagram,
+  tiktok,
 }: AboutProps) {
   return (
     <>
