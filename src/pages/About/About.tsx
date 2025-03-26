@@ -2,6 +2,8 @@ import Background from "../../components/Background/Background";
 import NavBar from "../../components/NavBar/NavBar";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "./About.css";
+import igPhoto from "../../assets/Instagram_logo_2022.svg";
+import ttPhoto from "../../assets/41b3zsiq4pL.png";
 
 interface AboutProps {
   instagram: string;
@@ -44,21 +46,21 @@ function About({
                 <br />
                 <br />
                 <p>
-                  You can find me in social media{" "}
                   <a
                     className="gaming-link stop-text-neon"
                     href={instagram}
                     target="_blank"
                   >
-                    Instagram
+                    <img src={igPhoto} alt="ig Link" width={20} height={20} />
                   </a>{" "}
-                  and{" "}
+                  {" "}
                   <a
+                    style={{ marginLeft: "50px" }}
                     className="gaming-link stop-text-neon"
                     href={tiktok}
                     target="_blank"
                   >
-                    tiktok
+                    <img src={ttPhoto} alt="tiktok Link" width={20} height={20} />
                   </a>
                 </p>
               </Card.Body>
